@@ -9,7 +9,7 @@ for i in range(len(nums)):
         products[i] *= nums[left]
         if left > 0:
             left -= 1
-        else:
+        else:  
             break
 
     while right <= len(nums) - 1:
