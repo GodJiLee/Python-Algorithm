@@ -11,7 +11,7 @@ import collections
 dic = collections.defaultdict(int)
 for str in strs:
     dic[str] = ''.join(sorted(str))
-
+ 
 list(dic.values())
 
 anagrams = collections.defaultdict(list)
