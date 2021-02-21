@@ -11,7 +11,7 @@ class Solution:
         return prev
     # from Linked List to Python List
     def toList(self, node: ListNode) -> List:
-        list: List = []
+        list: List = [] 
         while node:
             list.append(node.val)
             node = node.next
