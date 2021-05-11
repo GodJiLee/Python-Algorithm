@@ -1,0 +1,18 @@
+def maxDepth(self, root):
+    if root is None:
+        return 0
+    
+    queue = collections.deque([root]) # 양방향 추출이 빈번한 경우 유리
+    depth = 0
+    
+    while queue: # BFS
+        depth += 1
+        # 큐 연산 추출 노드의 자식 노드 삽입
+        for _ in range(len(queue)):
+            cur_root = queue.popleft()
+            if cur_root.left:
+                queue.append(cur_root.left)    
+            if cur_root.right():
+                queue.append(cur_root.right)
+    # BFS 반복횟수 == 길이
+    return depth
