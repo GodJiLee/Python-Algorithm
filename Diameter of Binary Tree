@@ -1,0 +1,20 @@
+class Solution:
+    longest: int = 0
+    
+    def diameterOfBinaryTree(self, root):
+        def dfs(node):
+            if not node:
+                return -1
+            #왼쪽, 오른쪽 각 리프 노드까지 탐색
+            left = dfs(node.left)
+            right = dfs(node.right)
+            
+            #가장 긴 경로
+            #변수 longest는 숫자형으로 불변 객체이기 때문에 재할당을 위해 클래스 변수로 선언함
+            #부모함수의 변수로 선언하면 참조 ID 변경과 함께 로컬 변수로 선언됨
+            self.longest = max(self.longest, left + right + 2) #거리
+            #상태값
+            return max(left, right) + 1
+        
+        dfs(root)
+        return self.longest
