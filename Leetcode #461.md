@@ -1,0 +1,59 @@
+# Leetcode #461 해밍 거리
+
+
+```python
+x, y = 1, 4
+```
+
+
+```python
+binx = bin(x)
+biny = bin(y)
+```
+
+
+```python
+res = int(binx[2:]) ^ int(biny[2:])
+```
+
+
+```python
+str(res).count('1')
+```
+
+
+
+
+    2
+
+
+
+
+```python
+def hamingDistance(self, x, y):
+    return bin(x ^ y).count('1')
+```
+
+
+```python
+bin(x ^ y)
+```
+
+
+
+
+    '0b101'
+
+
+
+
+```python
+x ^ y
+```
+
+
+
+
+    5
+
+
