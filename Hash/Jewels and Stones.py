@@ -26,7 +26,7 @@ def numJewelsInStones(self, J: str, S: str) -> int:
     fregs = collections.defaultdict(int)
     count = 0
 
-    # count frequency of Stones
+    # count frequency of Stones 
     for char in S:
         fregs[char] += 1
 
