@@ -1,0 +1,128 @@
+## **안정 정렬 vs. 불안정 정렬**
+* 중복된 값을 입력 순서와 동일하게 정렬
+* 안전 정렬: 퀵 정렬의 단점을 보완함 (버블/병합정렬이 이에 해당)
+* 불안전 정렬: 다른 기준으로 재정렬 시 시간 기준 정렬은 무시됨 (퀵 정렬이 이에 해당)
+
+### **Leetcode #148 리스트 정렬**
+연결 리스트의 정렬 문제로, 시간 복잡도 O(n log n) 안에 풀어야 한다.
+* 연결리스트 특성상 피벗은 고정된 위치에 지정되어야 함
+
+
+```python
+# 병합 정렬
+half, slow, fast = None, head, head
+while fast and fast.next:
+    half, slow, fast = slow, slow.next, fast.next.next
+half.next = None # half를 기준으로 연결리스트를 끊음
+```
+
+연결리스트는 전체 길이를 알 수 없기 때문에 런너 기법을 활용함
+> 세 변수를 만들어, 하나의 변수는 한 칸씩, 다른 변수는 두 칸씩 이동하도록 하면, 두 칸씩 이동한 변수가 리스트 끝에 닿을 때, 한 칸씩 이동한 변수는 중간에 도달할 것
+
+
+```python
+def sortList(self, head: ListNode) -> ListNode:
+    ...
+    
+    l1 = self.sortList(head) # 시작 노드
+    l2 = self.sortList(slow) # 중앙 노드
+```
+
+![Alt text](정렬_분할정복.jpg)
+
+
+```python
+# 크기 비교를 통해 정렬하며 이어 붙이기 
+def mergeTwoLists(self, l1, l2):
+    if l1 and l2:
+        if l1.val > l2.val:
+            l1, l2 = l2, l1 # swap
+        l1.next = self.mergeTwoLists(l1.next, l2) # 이음줄 만들기
+        
+    return l1 or l2
+```
+
+mergeTwoLists 함수는 연결리스트를 정렬하여 l1에 값이 있을 경우 l1을, None일 경우 l2를 반환하는 함수
+> l1 or l2 는 l1이 우선순위, l2가 후순위
+
+
+```python
+1 or None
+```
+
+
+
+
+    1
+
+
+
+
+```python
+1 or 2
+```
+
+
+
+
+    1
+
+
+
+
+```python
+None or 2
+```
+
+
+
+
+    2
+
+
+
+
+```python
+def mergeTwoLists(self, l1, l2):
+    if (not l1) or (l2 and l1.val > l2.val):
+        l1, l2 = l2, l1
+    
+    if l1:
+        l1.next = self.mergeTwoLists(l1.next, l2)
+    return l1
+```
+
+
+```python
+# 전체 코드
+def mergeTwoLists(self, l1: ListNode, l2: ListNode) -> ListNode:
+    if (not l1) or (l2 and l1.val > l2.val):
+        l1, l2 = l2, l1
+    if l1:
+        l1.next = mergeTwoLists(l1.next, l2)
+    
+    return l1
+
+def sortList(self, head: ListNode) -> ListNode:
+    if not (head and head.next):
+        return head
+    
+    # 런너 기법 활용
+    half, slow, fast = None, head, head
+    while fast and fast.next:
+        half, slow, fast = slow, slow.next, fast.next.next # slow는 1칸, fast는 2칸 이동
+    half.next = None # 연결리스트 연결 끊기
+    
+    # 분할 재귀 호출
+    l1 = self.sortList(head)
+    l2 = self.sortList(slow) # half를 기준으로 끊은 연결리스트의 첫 번째 노드
+    
+    return self.mergeTwoLists(l1, l2)
+```
+
+320밀리초 소요
+
+
+```python
+
+```
