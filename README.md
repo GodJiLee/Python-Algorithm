@@ -34,7 +34,7 @@
 
 ## 3. [LeetCode](https://leetcode.com/Jiwon_Lee/)의 
 
-리트코드 Weekly challenge
+LeetCode Weekly Challenge
 
 🏆 **Challenge**
 
