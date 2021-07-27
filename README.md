@@ -3,8 +3,8 @@
 :books: **<파이썬 알고리즘 인터뷰>** 를 참고해 [LeetCode](https://leetcode.com/Jiwon_Lee/)의 주요 알고리즘을 풀어봄
 
 
-✏️ 6장 **[문자열 조작](https://github.com/GodJiLee/Leetcode-Algorithm/tree/main/Array)**   
-✏️ 7장 **[배열](https://github.com/GodJiLee/Leetcode-Algorithm/tree/main/Array)**   
+✏️ **6장 [문자열 조작](https://github.com/GodJiLee/Leetcode-Algorithm/tree/main/Array)**   
+✏️ **7장 [배열](https://github.com/GodJiLee/Leetcode-Algorithm/tree/main/Array)**   
 ✏️ **[8장 연결 리스트](https://github.com/GodJiLee/Leetcode-Algorithm/tree/main/Linked_list)**    
 ✏️ **[9장 스택, 큐](https://github.com/GodJiLee/Leetcode-Algorithm/tree/main/Stack)**   
 ✏️ **[10장 데크, 우선순위 큐](https://github.com/GodJiLee/Leetcode-Algorithm/tree/main/Deque)**   
