@@ -30,9 +30,7 @@
 ✏️ **19장 [비트 조작](https://github.com/GodJiLee/Leetcode-Algorithm/tree/main/Bit_manipulation)**   
 
 
-## 2. baekjoon
-
-## 3. [LeetCode](https://leetcode.com/Jiwon_Lee/)   
+## 2. [LeetCode](https://leetcode.com/Jiwon_Lee/)   
 
 LeetCode Weekly Challenge
 
