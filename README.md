@@ -32,7 +32,7 @@
 
 ## 2. baekjoon
 
-## 3. [LeetCode](https://leetcode.com/Jiwon_Lee/)의 
+## 3. [LeetCode](https://leetcode.com/Jiwon_Lee/)   
 
 LeetCode Weekly Challenge
 
