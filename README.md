@@ -1,4 +1,5 @@
-# leetcode-algorithms
+# Python-Algoritms
+## 1. 파이썬 알고리즘 인터뷰
 :books: **<파이썬 알고리즘 인터뷰>** 를 참고해 [LeetCode](https://leetcode.com/Jiwon_Lee/)의 주요 알고리즘을 풀어봄
 
 
@@ -15,3 +16,7 @@
 ✏️ **[17장 정렬](https://github.com/GodJiLee/Leetcode-Algorithm/tree/main/Sorting)**   
 ✏️ **[18장 이진 검색](https://github.com/GodJiLee/Leetcode-Algorithm/tree/main/Binary_search)**   
 ✏️ **[19장 비트 조작](https://github.com/GodJiLee/Leetcode-Algorithm/tree/main/Bit_manipulation)**   
+
+## 2. baekjoon
+
+## 3. LeetCode
