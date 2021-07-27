@@ -32,4 +32,4 @@ LeetCode Weekly Challenge
 
 Steps|Title|Solutions
  ---|---|---
- 1||
+ 1|July LeetCoding Challenge 2021|
