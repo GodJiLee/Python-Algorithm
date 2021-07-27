@@ -2,7 +2,7 @@
 :books: **<파이썬 알고리즘 인터뷰>** 를 참고해 [LeetCode](https://leetcode.com/Jiwon_Lee/)의 주요 알고리즘을 풀어봄
 
 
-✏️ **6장 문자열 조작**
+✏️ **[6장 문자열 조작](https://github.com/GodJiLee/Leetcode-Algorithm/tree/main/Array)**
 
   * [유효한 팰린드롬](https://github.com/SoyeonHH/Algorithm_Python/blob/main/LeetCode/125.py) | 슬라이싱
   * [문자열 뒤집기](https://github.com/SoyeonHH/Algorithm_Python/blob/main/LeetCode/344.py) | s.reverse()
