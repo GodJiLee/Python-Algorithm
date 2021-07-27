@@ -6,7 +6,7 @@
 
 챕터|제목|설명|풀이
 ---|---|---|---
-6장|**[문자열 조작](https://github.com/GodJiLee/Leetcode-Algorithm/tree/main/Array)** | |
+6장|**[문자열 조작](https://github.com/GodJiLee/Leetcode-Algorithm/tree/main/Array)** | |[136](https://github.com/GodJiLee/Python-Algorithm/blob/main/Bit_manipulation/136%20Single%20Number.md) / [461](https://github.com/GodJiLee/Python-Algorithm/blob/main/Bit_manipulation/461.md)
 7장|**[배열](https://github.com/GodJiLee/Leetcode-Algorithm/tree/main/Array)**|  |
 8장|**[연결 리스트](https://github.com/GodJiLee/Leetcode-Algorithm/tree/main/Linked_list)**|  | 
 9장|**[스택, 큐](https://github.com/GodJiLee/Leetcode-Algorithm/tree/main/Stack)**|  |
