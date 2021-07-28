@@ -4,7 +4,7 @@
 
 📎 **Summary**
 
-챕터|제목|Key Word|문제 번호
+챕터|제목|Key Word|Solution
 ---|---|---|---
 6|**[문자열 조작](https://github.com/GodJiLee/Python-Algorithm/tree/main/String_manipulation)**|팰린드롬/슬라이싱/투포인터/람다표현식/애너그램/팀소트/정렬|[Group Anagrams](https://github.com/GodJiLee/Python-Algorithm/blob/main/String_manipulation/Group%20Anagrams.py) / [Most Common Word](https://github.com/GodJiLee/Python-Algorithm/blob/main/String_manipulation/Most%20Common%20Word.py) / [Reverse String](https://github.com/GodJiLee/Python-Algorithm/blob/main/String_manipulation/Reverse%20String.py) / [Reorder data in log file](https://github.com/GodJiLee/Python-Algorithm/blob/main/String_manipulation/reorder%20data%20in%20log%20file.py) / [Valid palindrome](https://github.com/GodJiLee/Python-Algorithm/blob/main/String_manipulation/valid%20palindrome.py)
 7|**[배열](https://github.com/GodJiLee/Python-Algorithm/tree/main/Array)**|포인터/동적배열/인덱스/키/스택/브루트 포스/파티션|[15](https://github.com/GodJiLee/Python-Algorithm/blob/main/Array/15.py) / [148](https://github.com/GodJiLee/Python-Algorithm/blob/main/Array/148.md) / [242](https://github.com/GodJiLee/Python-Algorithm/blob/main/242.md) / [Product of Array Except Self](https://github.com/GodJiLee/Python-Algorithm/blob/main/Array/Product%20of%20Array%20Except%20Self.py) / [best time to buy and sell stock](https://github.com/GodJiLee/Python-Algorithm/blob/main/Array/best%20time%20to%20buy%20and%20sell%20stock.py) / [two-sum](https://github.com/GodJiLee/Python-Algorithm/blob/main/Array/two-sum.py)
